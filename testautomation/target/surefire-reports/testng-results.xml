@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39001" started-at="2017-10-01T16:46:12Z" finished-at="2017-10-01T16:46:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39001" started-at="2017-10-01T16:46:12Z" finished-at="2017-10-01T16:46:51Z">
+      <class name="testautomation.homePage">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:testautomation.homePage@75bd9247]" name="testSetUp" duration-ms="2222" started-at="2017-10-01T18:46:21Z" finished-at="2017-10-01T18:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:testautomation.homePage@75bd9247]" name="verifyUrl" duration-ms="4889" started-at="2017-10-01T18:46:24Z" finished-at="2017-10-01T18:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="verifyHomePageTittle()[pri:1, instance:testautomation.homePage@75bd9247]" name="verifyHomePageTittle" duration-ms="14" started-at="2017-10-01T18:46:28Z" finished-at="2017-10-01T18:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTittle -->
+        <test-method status="PASS" signature="searchComputerName()[pri:2, instance:testautomation.homePage@75bd9247]" name="searchComputerName" duration-ms="552" started-at="2017-10-01T18:46:28Z" finished-at="2017-10-01T18:46:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchComputerName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testautomation.homePage@75bd9247]" name="tearDown" is-config="true" duration-ms="634" started-at="2017-10-01T18:46:29Z" finished-at="2017-10-01T18:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testautomation.homePage -->
+      <class name="testautomation.Basesetup">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:testautomation.Basesetup@3f0ee7cb]" name="testSetUp" duration-ms="3535" started-at="2017-10-01T18:46:12Z" finished-at="2017-10-01T18:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:testautomation.Basesetup@3f0ee7cb]" name="verifyUrl" duration-ms="5682" started-at="2017-10-01T18:46:15Z" finished-at="2017-10-01T18:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testautomation.Basesetup@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="623" started-at="2017-10-01T18:46:21Z" finished-at="2017-10-01T18:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testautomation.Basesetup -->
+      <class name="testautomation.EditandDelete">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:testautomation.EditandDelete@7dc36524]" name="testSetUp" is-config="true" duration-ms="2096" started-at="2017-10-01T18:46:42Z" finished-at="2017-10-01T18:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="editComputer()[pri:1, instance:testautomation.EditandDelete@7dc36524]" name="editComputer" duration-ms="4299" started-at="2017-10-01T18:46:44Z" finished-at="2017-10-01T18:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editComputer -->
+        <test-method status="PASS" signature="deleteComputer()[pri:2, instance:testautomation.EditandDelete@7dc36524]" name="deleteComputer" duration-ms="1137" started-at="2017-10-01T18:46:49Z" finished-at="2017-10-01T18:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testautomation.EditandDelete@7dc36524]" name="tearDown" is-config="true" duration-ms="631" started-at="2017-10-01T18:46:50Z" finished-at="2017-10-01T18:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testautomation.EditandDelete -->
+      <class name="testautomation.addComputer">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:testautomation.addComputer@7d417077]" name="testSetUp" is-config="true" duration-ms="2064" started-at="2017-10-01T18:46:30Z" finished-at="2017-10-01T18:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="newComputer()[pri:1, instance:testautomation.addComputer@7d417077]" name="newComputer" duration-ms="8798" started-at="2017-10-01T18:46:32Z" finished-at="2017-10-01T18:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newComputer -->
+        <test-method status="PASS" signature="addComputerdetails()[pri:2, instance:testautomation.addComputer@7d417077]" name="addComputerdetails" duration-ms="1176" started-at="2017-10-01T18:46:41Z" finished-at="2017-10-01T18:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComputerdetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testautomation.addComputer@7d417077]" name="tearDown" is-config="true" duration-ms="626" started-at="2017-10-01T18:46:42Z" finished-at="2017-10-01T18:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testautomation.addComputer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
